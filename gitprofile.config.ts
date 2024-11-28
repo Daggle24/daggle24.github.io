@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: false, // Display GitHub projects?
-      header: 'Github Projectss',
+      header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['', ''], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,33 +33,41 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Knowledge Graph RAG + SQL Lookup - GenAI Agent',
+          title: 'SQL Schema Describer',
           description:
-            'Chatbot assistant agent built with LangGraph that does a RAG over a Neo4j Graph Database and has the posibility to perform an SQL lookup to retrieve information from a database.',
+            'The SQL Schema Tables + Columns are described through an LLM chain and is represented as nodes in a Neo4j Graph Database with the posibility to embbed it in a vector store and perform RAG',
           imageUrl:
             'https://pbs.twimg.com/profile_images/1758141568970878976/fM5FlvD3_400x400.jpg',
-          link: 'https://ardis.app',
+          link: 'https://youtu.be/pOAFERhzGeo',
+        },
+        {
+          title: 'Knowledge Graph RAG + SQL Lookup - GenAI Agent',
+          description:
+            'Obsidian integrated Chatbot assistant agent built with LangGraph that does a RAG over a Neo4j Knowledge Graph Database and has the posibility to perform an SQL lookup to retrieve information from a database.',
+          imageUrl:
+            'https://pbs.twimg.com/profile_images/1758141568970878976/fM5FlvD3_400x400.jpg',
+          link: 'https://youtu.be/zZ_At_fW_nI',
         },
         {
           title: 'Deliria APP',
           description:
             'Mobile APP idea for photo and video creation/editing powered by AI using Stable Diffusion and Flux models with the help of ComfyUI',
           imageUrl:
-            'https://pbs.twimg.com/profile_images/1758141568970878976/fM5FlvD3_400x400.jpg',
+            'https://i.imgur.com/i8JYEZr.jpeg',
           link: 'https://drive.google.com/file/d/1UugK0A-CYocPNAIxHjZNwIGlyy5IzHZ1/view?usp=sharing',
         },
         {
           title: 'Ardis App',
           description:
-            'Online Optimized Parts Production Software',
+            '(MEAN Stack) Online Optimized Parts Production Software, highly versatile tool for wood sheets company sales process. ',
           imageUrl:
-            'https://www.ardis.eu/imgs/layout/logo-ardis.svg',
-          link: 'https://ardis.app',
+            'https://media.licdn.com/dms/image/v2/C560BAQGbMOjNar0WVA/company-logo_200_200/company-logo_200_200/0/1630568270745/ardis_information_systems_n_v__logo?e=1740614400&v=beta&t=VefaHirZeFmE8D6JUhHYm6ebPZb-REIRTBTm3BAs538',
+          link: 'https://www.youtube.com/watch?v=VZL1LrXXXr0',
         },
         {
           title: '3Cad',
           description:
-            '3D Product Configurator Software, Developed a custom product library for 2aKüchen company',
+            'Project Manager and Developer, 3D Product Configurator Software, developed a custom parametric product library for many furniture companies and succefully integrated with different ERPs and CNC machines',
           imageUrl:
             'https://scontent.fvlc1-2.fna.fbcdn.net/v/t39.30808-6/317754441_576158117846481_1625457403197215915_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rbeErl7YrTgQ7kNvgGeUm6e&_nc_zt=23&_nc_ht=scontent.fvlc1-2.fna&_nc_gid=ABd_Aix977QDMtzTlSwAoKu&oh=00_AYDSPBen1Ks7MKgIGA7go9rP-LpWDZ0nNpRWc-uUuwYAfQ&oe=674CCCAF',
           link: 'https://www.youtube.com/watch?v=ao5HeAD888E',
@@ -67,7 +75,7 @@ const CONFIG = {
         {
           title: 'Pandabox',
           description:
-            'Online Personal Shopper for Kids',
+            '(MEAN Stack) Startup CTO - Online Personal Shopper for Kids, received 200k+ from investors',
           imageUrl:
             'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/xi2bwghovrboxgx5kbby',
           link: 'https://alicanteplaza.es/tag/pandabox',
@@ -300,7 +308,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/Daggle24/daggle24.github.io"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
