@@ -171,6 +171,13 @@ const CONFIG = {
       to: 'January 2024',
       companyLink: 'https://www.hp.com/us-en/printers/site-print/layout-robot.html',
     },
+    {
+      company: 'Babel',
+      position: 'GENAI FULL-STACK LLM APPS DEVELOPER (SOFTWARE ARCHITECT)',
+      from: 'January 2024',
+      to: 'Present',
+      companyLink: 'https://babelgroup.com/en/',
+    },
     
   ],
   certifications: [
