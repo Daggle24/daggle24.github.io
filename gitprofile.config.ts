@@ -33,6 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'AI Documentation Builder',
+          description:'In this project I have built a tool that allows our team to create the user and technical documentation for poorly documented projects by using the SQL Schema, Recorded Team meetings and other sources, with the help of LLM, we build a Self-Learning knowledge base that can be used to generate documentation and so on.',
+          imageUrl: 'https://pbs.twimg.com/profile_images/1758141568970878976/fM5FlvD3_400x400.jpg',
+          link: '#',
+        },
+        {
           title: 'SQL Schema Describer',
           description:
             'The SQL Schema Tables + Columns are described through an LLM chain and is represented as nodes in a Neo4j Graph Database with the posibility to embbed it in a vector store and perform RAG',
